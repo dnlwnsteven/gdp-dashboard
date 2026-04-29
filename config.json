@@ -1,0 +1,38 @@
+{
+    "data_source": {
+        "muri_column": "muri",
+        "uri_column": "uri",
+        "page_column": "ord.page",
+        "id_column": "ord.id"
+    },
+    "annotation_options": {
+        "是否有效": [
+            "有效数据",
+            "电影宣传图",
+            "有水印",
+            "无效数据",
+            "不一样的图"
+        ],
+        "有水印": [
+            "视觉中国",
+            "新华网",
+            "中新社",
+            "图虫",
+            "人民日报",
+            "央视总台",
+            "其他水印"
+        ]
+    },
+    "ui_settings": {
+        "images_per_page": 20,
+        "image_size": 300,
+        "auto_load_webpage": false,
+        "enable_batch_mode": true
+    },
+    "output_settings": {
+        "output_dir": "outputs",
+        "report_dir": "reports",
+        "log_dir": "logs",
+        "backup_frequency": 100
+    }
+}
